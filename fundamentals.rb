@@ -5,7 +5,7 @@
 # Type your solution directly below this line:
 
 def is_rainy(weather)
-if weather == rainy
+if (weather == rainy)
   return true
 else
   return false
@@ -50,4 +50,4 @@ instructors = ["Ali", "Mike", "James", "Andy", "John", "Juan"]
 
 for name in instructors do
   puts name + "is an instructor"
-end 
+end
