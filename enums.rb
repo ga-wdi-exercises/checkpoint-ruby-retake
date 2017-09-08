@@ -7,12 +7,10 @@ darling_children = [
   {first_name: 'Michael'}
 ]
 
-# Use `.each` to iterate over the `darling_children` array and add 
+# Use `.each` to iterate over the `darling_children` array and add
 # a full_name attribute to each value with ' Darling' added to each name.
 # Example: {first_name: 'Wendy'} should be {first_name: 'Wendy', full_name: 'Wendy Darling'}
 # Type your solution directly below this line:
-
-
 
 
 # Question 5
@@ -22,5 +20,5 @@ ages = [11, 9, 10, 8, 9]
 
 # Use `.map` to iterate through the `ages` array and add 30 to each
 # of each one. Assign the returned array to a variable called `older_ages`.
-# Example: 11 should become 31 in the new array.
+# Example: 11 should become 41 in the new array.
 # Type your solution directly below this line:
