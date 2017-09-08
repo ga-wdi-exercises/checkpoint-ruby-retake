@@ -1,12 +1,12 @@
 # Question 1
-# Define a method called `offer_rose`, which should take one argument named `person` (String).
-# When called the method should print to the terminal:
-# "Would you take this rose, `person`, in exchange for giving an old beggar woman shelter from the bitter cold?"
+# Define a method called `is_rainy`, which should take one argument named `weather` (String).
+# When called the method should return:
+# true (boolean) if the `weather` is `rainy` or false (boolean) if it is not rainy
 # Type your solution directly below this line:
 
-
-
-
+# def is_rainy(weather)
+#   return weather == 'rainy'
+# end
 
 
 # Question 2
@@ -16,30 +16,29 @@ town = {
   residents: ["Maurice", "Belle", "Gaston"],
   castle: {
     num_rooms: 47,
-    residents: ["Robby Benson"],
+    other_residents: ["Robby Benson"],
     guests: []
   }
 }
 
 # Using Ruby...
-# - Remove "Belle" from `residents`
-# - Add "Belle" to the `guests` array
+# - Remove "Maurice" from `residents`
+# - Add "Maurice" to the `other_residents` array
 # Type your solution directly below this line:
 
 
 
 
-
-
-
 # Question 3
-# Assume you have an array of strings representing friends' names...
+# Assume you have an array of strings representing instructors' names...
 
-friends = ["Chip Potts", "Cogsworth", "Lumière", "Mrs. Potts"]
+instructors = ["Ali", "Mike", "James", "Andy", "John", "Juan"]
 
 # Using a loop and string interpolation, print each string in `friends` to the Terminal...
-# "Belle is friends with Chip Potts"
-# "Belle is friends with Cogsworth"
-# "Belle is friends with Lumière"
-# "Belle is friends with Mrs. Potts"
+# "Ali is an instructor"
+# "Mike is an instructor"
+# "James is an instructor"
+# "Andy is an instructor"
+# "John is an instructor"
+# "Juan is an instructor"
 # Type your solution directly below this line:

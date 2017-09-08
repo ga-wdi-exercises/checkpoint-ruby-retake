@@ -10,17 +10,22 @@ end
 
 describe "Fundamentals #1" do
   begin
-    offer_rose = b.method(:offer_rose)
+    is_rainy = b.method(:is_rainy)
   rescue Exception
   end
 
-  it "offer_rose is a method" do
-    expect(offer_rose).to be_a(Method)
+  it "is_rainy is a method" do
+    expect(is_rainy).to be_a(Method)
   end
 
-  it "offer_rose interpolates person into string" do
-    expect {offer_rose.call('Young Prince')}.to output(/Young Prince/).to_stdout
+  it "is_rainy returns true if the weather is rainy" do
+    expect(is_rainy('rainy')).to be_truthy
   end
+
+  it "is_rainy returns false if the weather is not rainy" do
+    expect(is_rainy('cloudy')).to be_falsey
+  end
+
 end
 
 describe "Fundamentals #2" do
@@ -29,12 +34,12 @@ describe "Fundamentals #2" do
   rescue Exception
   end
 
-  it "Belle has been removed from the town residents" do
-    expect(town[:residents]).to_not include('Belle')
+  it "Maurice has been removed from the town residents" do
+    expect(town[:residents]).to_not include('Maurice')
   end
 
-  it "Belle has been added to the castle guests" do
-    expect(town[:castle][:guests]).to include('Belle')
+  it "Maurice has been added to the castle guests" do
+    expect(town[:castle][:other_residents]).to include('Maurice')
   end
 end
 
@@ -49,6 +54,6 @@ describe "Fundamentals #3" do
         eval(fundamentals)
       rescue Exception
       end
-    }.to output(/Mrs. Potts/).to_stdout
+    }.to output(/instructor/).to_stdout
   end
 end

@@ -1,19 +1,16 @@
 # Question 4
 # Assume the following array of hashes:
 
-lost_boys = [
-  {name: 'Tootles', age: 11},
-  {name: 'Nibs', age: 9},
-  {name: 'Slightly', age: 10},
-  {name: 'Curly', age: 8},
-  {name: 'The Twins', age: 9}
+darling_children = [
+  {first_name: "Wendy"},
+  {first_name: 'John'},
+  {first_name: 'Michael'},
 ]
 
-# Use `.each` to iterate over the `lost_boys` array and increase each boy's age by
-# 30 years.
+# Use `.each` to iterate over the `darling_children` array and add 
+# a full_name attribute to each value with ' Darling' added to each name.
+# Example: {first_name: 'Wendy'} should be {first_name: 'Wendy', full_name: 'Wendy Darling'}
 # Type your solution directly below this line:
-
-
 
 
 
@@ -21,9 +18,9 @@ lost_boys = [
 # Question 5
 # Assume the following array:
 
-children = ['Wendy', 'John', 'Michael']
+ages = [11, 9, 10, 8, 9]
 
-# Use `.map` to iterate through the `children` array and add ` Darling` to the end
-# of their names. Assign the returned array to a variable called `darling_children`.
-# Example: `Wendy` should become `Wendy Darling` in the new array.
+# Use `.map` to iterate through the `ages` array and add 30 to each
+# of each one. Assign the returned array to a variable called `older_ages`.
+# Example: 11 should become 31 in the new array.
 # Type your solution directly below this line:
