@@ -4,6 +4,14 @@
 # true (boolean) if the `weather` is `rainy` or false (boolean) if it is not rainy
 # Type your solution directly below this line:
 
+def is_rainy(weather)
+  if weather == rainy
+     true
+  elsif
+     false
+  end
+end
+
 
 
 # Question 2
@@ -22,6 +30,10 @@ town = {
 # - Remove "Maurice" from `residents`
 # - Add "Maurice" to the `other_residents` array
 # Type your solution directly below this line:
+(town[:residents]).delete_at(0)
+
+
+(town[:castle][:other_residents]).push('Maurice')
 
 
 
@@ -39,3 +51,7 @@ instructors = ["Ali", "Mike", "James", "Andy", "John", "Juan"]
 # "John is an instructor"
 # "Juan is an instructor"
 # Type your solution directly below this line:
+
+for people in instructors do
+  puts people + " is an instructor"
+end
