@@ -4,7 +4,7 @@
 darling_children = [
   {first_name: "Wendy"},
   {first_name: 'John'},
-  {first_name: 'Michael'},
+  {first_name: 'Michael'}
 ]
 
 # Use `.each` to iterate over the `darling_children` array and add 
