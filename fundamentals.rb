@@ -4,9 +4,6 @@
 # true (boolean) if the `weather` is `rainy` or false (boolean) if it is not rainy
 # Type your solution directly below this line:
 
-# def is_rainy(weather)
-#   return weather == 'rainy'
-# end
 
 
 # Question 2
