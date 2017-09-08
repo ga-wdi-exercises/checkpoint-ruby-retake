@@ -3,7 +3,14 @@
 # When called the method should return:
 # true (boolean) if the `weather` is `rainy` or false (boolean) if it is not rainy
 # Type your solution directly below this line:
-
+def is_rainy(weather)
+puts "Its rainy outside"
+end 
+def rainy?
+  puts "True"
+  if @weather == "rainy"
+  end
+end
 
 
 # Question 2
@@ -22,8 +29,8 @@ town = {
 # - Remove "Maurice" from `residents`
 # - Add "Maurice" to the `other_residents` array
 # Type your solution directly below this line:
-
-
+(town:[:residents]).delete("Maurice")
+(town:[:castle][:other_residents]).push("Maurice")
 
 
 # Question 3
@@ -31,7 +38,7 @@ town = {
 
 instructors = ["Ali", "Mike", "James", "Andy", "John", "Juan"]
 
-# Using a loop and string interpolation, print each string in `friends` to the Terminal...
+# Using a loop and string interpolation, print each string in `instructors` to the Terminal...
 # "Ali is an instructor"
 # "Mike is an instructor"
 # "James is an instructor"
@@ -39,3 +46,5 @@ instructors = ["Ali", "Mike", "James", "Andy", "John", "Juan"]
 # "John is an instructor"
 # "Juan is an instructor"
 # Type your solution directly below this line:
+instructors.each {|instructor|}
+puts "#{instructor} is an instructor"
