@@ -2,7 +2,7 @@
 # Assume the following array of hashes:
 
 darling_children = [
-  {first_name: "Wendy"},
+  {first_name: 'Wendy'},
   {first_name: 'John'},
   {first_name: 'Michael'}
 ]
