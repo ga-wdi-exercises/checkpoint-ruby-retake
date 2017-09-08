@@ -34,6 +34,7 @@ describe "Enums #5" do
   end
 
   it "Each age has been increased by 30 years" do
-    expect(older_ages.all?{ |age| age > 30 }).to eq(true)
+    expected_ages = [41, 39, 40, 38, 39]
+    expect(older_ages).expect match_array(expected_ages)
   end
 end
