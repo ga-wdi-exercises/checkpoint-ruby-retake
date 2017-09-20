@@ -12,7 +12,8 @@ darling_children = [
 # Example: {first_name: 'Wendy'} should be {first_name: 'Wendy', full_name: 'Wendy Darling'}
 # Type your solution directly below this line:
 darling_children.each do |name|
-  name[:full_name] = name [:full_name] + " Darling"
+name[:full_name] = name[:first_name] + ' Darling'
+end
 
 # Question 5
 # Assume the following array:
@@ -23,5 +24,13 @@ ages = [11, 9, 10, 8, 9]
 # of each one. Assign the returned array to a variable called `older_ages`.
 # Example: 11 should become 41 in the new array.
 # Type your solution directly below this line:
-older_ages = ages.map do |ad|
-  ad + 30 
+older_ages = ages.map {|age|
+  age + 30
+}
+# older_ages = ages.map do |age|
+#   return age + 30
+# end
+
+
+require "pry"
+binding.pry
