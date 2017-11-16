@@ -1,4 +1,4 @@
-# Ruby Checkpoint
+# Ruby Checkpoint Retake
 
 ## Instructions
 Fork and clone this repository and complete the three sections below. Make at least one commit for each section. When finished, push your commits to your forked repository and submit a Pull Request back to the original repository.
