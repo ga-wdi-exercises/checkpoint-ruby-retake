@@ -28,9 +28,9 @@ describe "OOP #6" do
     expect(simon.methods).to include(:eat)
   end
 
-  it "Animal's color is gettable but not settable" do
+  it "Animal's color is gettable and settable" do
     expect(simon).to respond_to(:color)
-    expect(simon).to_not respond_to(:color=)
+    expect(simon).to respond_to(:color=)
   end
 end
 
