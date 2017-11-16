@@ -2,7 +2,7 @@
 # Define a Ruby class called `Animal`. Each `Animal` should have...
 # - A `color` (String) attribute
 # - An `eat` instance method
-# - The ability to "get" but NOT "set" `color`
+# - The ability to "get" and "set" `color`
 # Type your solution directly below this line:
 
 
