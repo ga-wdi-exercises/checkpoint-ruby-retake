@@ -24,6 +24,6 @@ bundle install
 ```
 Then call the test runner each time you want to check your code:
 ```
-rspec --format documentation
+bundle exec rspec --format documentation
 ```
 > IMPORTANT: To allow the tests to run without interruption, comment out any `binding.pry` statements in your code each time before calling the test runner
