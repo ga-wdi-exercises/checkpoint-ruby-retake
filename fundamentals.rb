@@ -3,8 +3,13 @@
 # When called the method should return:
 # true (boolean) if the `weather` is `rainy` or false (boolean) if it is not rainy
 # Type your solution directly below this line:
-
-
+def is_rainy(weather)
+  if weather == "rainy"
+    return true
+  else
+    return false
+end
+end
 
 # Question 2
 # Assume the following hash...
@@ -23,7 +28,8 @@ town = {
 # - Add "Maurice" to the `other_residents` array
 # Type your solution directly below this line:
 
-
+town[:residents].delete("Maurice")
+town[:castle][:other_residents].push("Maurice")
 
 
 # Question 3
@@ -39,3 +45,6 @@ instructors = ["Ali", "Mike", "James", "Andy", "John", "Juan"]
 # "John is an instructor"
 # "Juan is an instructor"
 # Type your solution directly below this line:
+instructors.length.times do |name|
+  puts "#{name} is an instructor"
+end
