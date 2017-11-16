@@ -31,7 +31,7 @@ town = {
 
 instructors = ["Ali", "Mike", "James", "Andy", "John", "Juan"]
 
-# Using a loop and string interpolation, print each string in `friends` to the Terminal...
+# Using a loop and string interpolation, print each string in `instructors` to the Terminal...
 # "Ali is an instructor"
 # "Mike is an instructor"
 # "James is an instructor"
